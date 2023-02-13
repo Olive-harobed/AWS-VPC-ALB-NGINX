@@ -13,3 +13,4 @@ amazon-linux-extras install nginx1.12
 systemctl start nginx
 systemctl enable nginx
 echo "<h1>Hello, I am server 2 and $(hostname -f) is my host name</h1>" > /usr/share/nginx/html/index.html
+
